@@ -25,7 +25,6 @@
 
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -36,14 +35,17 @@
                     <a class="navbar-brand" href="#">Exp. Gov</a>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <form class="navbar-form navbar-left">
+                    <!-- Begin MailChimp Signup Form -->
+                    <form class="navbar-form navbar-left" action="//loogart.us7.list-manage.com/subscribe/post?u=318cbb07c865a88e681d7e59d&amp;id=e18344cbf9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Newsletter signup">
+                            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Newsletter signup" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_318cbb07c865a88e681d7e59d_e18344cbf9" tabindex="-1" value=""></div>
+                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Subscribe</button>
                         </div>
-                        <button type="submit" class="btn btn-default">Sign up</button>
                     </form>
+                    <!--End mc_embed_signup-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Start here</a></li>
                         <li><a href="#">GoC</a></li>
@@ -54,43 +56,64 @@
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Email</a></li>
+                                <li><a href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Loogart_tbs&action=edit">Edit</a></li>
                             </ul>
                         </li>
                         <li><a href="#">FR</a></li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
         </nav>
 
         <!-- content -->
         <section class="home">
             <div class="container">
 
-
-                <div class="button-group filter-button-group">
-                    <button class="button is-checked" data-filter="*">show all</button>
-                    <button class="button" data-filter=".tools">Tools</button>
-                    <button class="button" data-filter=".events">Events</button>
-                    <button class="button" data-filter=".theory">Theory</button>
+                <div class="btn-group button-group filter-button-group">
+                    <button class="btn btn-default button is-checked" data-filter="*">show all</button>
+                    <button class="btn btn-default  button" data-filter=".tools">Tools</button>
+                    <button class="btn btn-default  button" data-filter=".events">Events</button>
+                    <button class="btn btn-default  button" data-filter=".theory">Theory</button>
+                    <button class="btn btn-default  button" data-filter=".resources">Resources</button>
                 </div>
 
                 <div class="grid">
                     <div class="grid-sizer"></div>
-                    <div class="grid-item element-item tools"></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 events"></div>
-                    <div class="grid-item grid-item--width3 theory"></div>
-                    <div class="grid-item grid-item--height2 tools"></div>
-                    <div class="grid-item events"></div>
-                    <div class="grid-item grid-item--height2 events"></div>
-                    <div class="grid-item theory"></div>
-                    <div class="grid-item grid-item--width3 tools"></div>
-                    <div class="grid-item theory"></div>
-                    <div class="grid-item grid-item--width3 events"></div>
+                    <!-- tile 1 -->
+                    <a href="#!" class="grid-item element-item tools tile-1"></a>
+                    <!-- tile 2 -->
+                    <a href="#!" class="grid-item grid-item--width2 grid-item--height2 events tile-2"></a>
+                    <!-- tile 3 -->
+                    <a href="#!" class="grid-item grid-item--width3 theory tile-3"></a>
+                    <!-- tile 4 -->
+                    <a href="#!" class="grid-item grid-item--height2 tools tile-4"></a>
+                    <!-- tile 5 -->
+                    <a href="#!" class="grid-item events tile-5"></a>
+                    <!-- tile 6 -->
+                    <a href="#!" class="grid-item grid-item--height2 events tile-6"></a>
+                    <!-- tile 7 -->
+                    <a href="#!" class="grid-item theory tile-7"></a>
+                    <!-- tile 8 -->
+                    <a href="#!" class="grid-item grid-item--width3 tools tile-8"></a>
+                    <!-- tile 9 -->
+                    <a href="#!" class="grid-item theory tile-9"></a>
+                    <!-- tile 10 -->
+                    <a href="#!" class="grid-item grid-item--width3 resources tile-10"></a>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                   <div class="col-sm-12">
+                       <h6>© Designed by <a href="http://loogart.com" target="_blank">Chris</a> of <a href="http://international.gc.ca/" target="_blank">Global Affairs Canada</a> for our friends at Treasury Board Canada</h6>
+                   </div>
+                    
                 </div>
             </div>
-
         </section>
 
     </section>
