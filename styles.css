@@ -225,6 +225,20 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     min-height: 34px;
 }
 
+.navbar-default .navbar-nav>li>a:visited {
+    color: #222;
+}
+
+.input-mailchimp {
+    width: 450px;
+}
+
+@media (max-width: 767px) {
+    .input-mailchimp {
+        width: auto;
+    }
+}
+
 .home {
     padding: 20px;
     background-color: #fff;
