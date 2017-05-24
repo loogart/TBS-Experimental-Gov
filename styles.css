@@ -106,6 +106,125 @@ div#mw-panel {
     border: 1px solid transparent;
 }
 
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #222;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #222;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #222;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #111;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>.disabled>a,
+.navbar-default .navbar-nav>.disabled>a:hover,
+.navbar-default .navbar-nav>.disabled>a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-default .navbar-link {
+    color: #777;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-default .btn-link {
+    color: #777;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+    color: #333;
+}
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: #ccc;
+}
+
+.btn {
+    min-height: 34px;
+}
+
 .home {
     padding: 20px;
     background-color: #fff;
@@ -146,7 +265,7 @@ div#mw-panel {
 .grid-item {
     height: 200px;
     float: left;
-/*
+    /*
     background: #D26;
     border: 2px solid #333;
     border-color: hsla(0, 0%, 0%, 0.5);
@@ -165,7 +284,6 @@ div#mw-panel {
     height: 400px;
 }
 
-
 @media (max-width:767px) {
     .grid-sizer,
     .grid-item {
@@ -177,52 +295,60 @@ div#mw-panel {
     }
 }
 
-.home{
+.home {
     padding: 0 0 30px;
 }
 
-.home .filter-button-group{
-    padding:15px 0;
+.home .filter-button-group {
+    padding: 15px 0;
 }
 
-.tile-1{
+.tile-1 {
     background-color: #f8f8f8;
 }
-.tile-2{
+
+.tile-2 {
     background-color: #d8d8d8;
 }
-.tile-3{
+
+.tile-3 {
     background-color: #b8b8b8;
 }
-.tile-4{
+
+.tile-4 {
     background-color: #c8c8c8;
 }
-.tile-5{
+
+.tile-5 {
     background-color: #e8e8e8;
 }
-.tile-6{
-    background-color: #f6f6f6;
+
+.tile-6 {
+    background-color: #c1c1c1;
 }
-.tile-7{
+
+.tile-7 {
     background-color: #c3c3c3;
 }
-.tile-8{
+
+.tile-8 {
     background-color: #d5d5d5;
 }
-.tile-9{
+
+.tile-9 {
     background-color: #f3f3f3;
 }
-.tile-10{
-    background-color: #f7f7f7;
+
+.tile-10 {
+    background-color: #e3e3e3;
 }
 
-
-.footer{
-    padding:30px 0;
+.footer {
+    padding: 30px 0;
     background-color: #232323;
-    color:#e8e8e8;
+    color: #e8e8e8;
 }
 
-.footer a{
-    color:#e8e8e8;
+.footer a {
+    color: #e8e8e8;
 }
