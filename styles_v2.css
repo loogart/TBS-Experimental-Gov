@@ -503,6 +503,7 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      margin-bottom: 0;
   }
   
   div[class^="col-"] {
