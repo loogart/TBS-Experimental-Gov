@@ -8,7 +8,7 @@
     any other head content must come *after* these tags -->
     <title>TBS Experimental Gov</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_v2.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
 
     <section class="super-body">
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -31,7 +31,7 @@
                       </button>
                     <a class="navbar-brand" href="Loogart_tbs">
                         <object data="http://www.gcpedia.gc.ca/gcwiki/images/9/92/Gc-exp-logo.svg" type="image/svg">
-                            <img class="logo" src="images/logo.svg">
+                            <img class="logo" src="images/logo-inverse.svg">
                         </object>
                     </a>
                 </div>
@@ -75,9 +75,9 @@
         <!-- content -->
         <section class="home">
             <div class="container">
-
                 <div class="btn-group button-group filter-button-group">
-                    <button class="btn btn-default button is-checked" data-filter="*">All</button>
+                    <h5 class="filter-subtitle">Select a Filter:</h5>
+                    <button class="btn btn-default  button is-checked" data-filter="*">All</button>
                     <button class="btn btn-default  button" data-filter=".tools">Tools</button>
                     <button class="btn btn-default  button" data-filter=".events">Events</button>
                     <button class="btn btn-default  button" data-filter=".theory">Theory</button>
@@ -87,7 +87,7 @@
                 <div class="grid">
                     <div class="grid-sizer"></div>
                     <!-- tile 1 -->
-                    <a href="Loogart_tbs_p1" class="grid-item tools tile-1">
+                    <a href="Loogart_tbs_p1" class="grid-item grid-item--width3 tools tile-1">
                         <h3>Find a practitionner</h3>
                     </a>
                     <!-- tile 2 -->
@@ -99,7 +99,7 @@
                         <h3>Einstein’s Static Universe</h3>
                     </a>
                     <!-- tile 4 -->
-                    <a href="Loogart_tbs_p1" class="grid-item grid-item--height2 tools tile-4">
+                    <a href="Loogart_tbs_p1" class="grid-item tools tile-4">
                         <h3>Drill</h3>
                     </a>
                     <!-- tile 5 -->
@@ -107,7 +107,7 @@
                         <h3>Burger Week</h3>
                     </a>
                     <!-- tile 6 -->
-                    <a href="Loogart_tbs_p1" class="grid-item grid-item--height2 events tile-6">
+                    <a href="Loogart_tbs_p1" class="grid-item events tile-6">
                         <h3>Innovation Fair</h3>
                     </a>
                     <!-- tile 7 -->
@@ -115,11 +115,11 @@
                         <h3>Theory of Relativity</h3>
                     </a>
                     <!-- tile 8 -->
-                    <a href="Loogart_tbs_p1" class="grid-item grid-item--width3 tools tile-8">
+                    <a href="Loogart_tbs_p1" class="grid-item tools tile-8">
                         <h3>Hammer</h3>
                     </a>
                     <!-- tile 9 -->
-                    <a href="Loogart_tbs_p1" class="grid-item theory tile-9">
+                    <a href="Loogart_tbs_p1" class="grid-item grid-item--width3 theory tile-9">
                         <h3>The Blank Slate</h3>
                     </a>
                     <!-- tile 10 -->
