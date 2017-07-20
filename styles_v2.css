@@ -388,7 +388,7 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      padding-bottom: 15px;
+      padding-bottom: 20px;
       border: 1px solid #fff;
   }
   
@@ -402,7 +402,7 @@
   }
   
   .grid-item span {
-      align-self: flex-end;
+      align-self:flex-end;
   }
   
   .grid-item h3 {
