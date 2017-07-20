@@ -389,16 +389,24 @@
       background-size: cover;
       background-repeat: no-repeat;
       padding-bottom: 15px;
+      transition: all .2s ease;
   }
   
   .grid-item:hover,
   .grid-item:active,
   .grid-item:focus {
-      background-color: rgba(255, 255, 255, .1)
+      background-color: #313131;
+      box-shadow: 0 20px 60px rgba(0,0,0,.4);
+      z-index: 2;
+      transform: scale(1.1);
+      transition: all .1s;
+  }
+  
+  .grid-item span {
+      align-self: flex-end;
   }
   
   .grid-item h3 {
-      align-self: flex-end;
       color: #fff;
       text-shadow: 0 2px 20px rgba(0, 0, 0, .4);
       font-size: 1.2em;
