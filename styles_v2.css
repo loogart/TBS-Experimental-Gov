@@ -389,7 +389,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       padding-bottom: 15px;
-      transition: all .2s ease;
+      border: 1px solid #fff;
   }
   
   .grid-item:hover,
@@ -397,9 +397,8 @@
   .grid-item:focus {
       background-color: #313131;
       box-shadow: 0 20px 60px rgba(0,0,0,.4);
-      z-index: 2;
+      z-index: 1;
       transform: scale(1.1);
-      transition: all .1s;
   }
   
   .grid-item span {
@@ -457,61 +456,51 @@
   .tile-1 {
       background-color: #2D3142;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-2 {
       background-color: #4F5D75;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-3 {
       background-color: #767c86;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-4 {
       background-color: #EF8354;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-5 {
       background-color: #2D3142;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-6 {
       background-color: #767c86;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-7 {
       background-color: #EF8354;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-8 {
       background-color: #2D3142;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-9 {
       background-color: #4F5D75;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .tile-10 {
       background-color: #767c86;
       background-color: #232323;
-      border: 1px solid #fff;
   }
   
   .jumbotron-image-1 {
