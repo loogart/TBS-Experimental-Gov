@@ -33,7 +33,7 @@
   
   body {
       overflow-y: hidden;
-      background-color: #f8f8f8;
+      background-color: #232323;
   }
   
   .super-body {
@@ -238,7 +238,7 @@
   
   .navbar-inverse {
       background-color: #232323;
-      border-color: #080808;
+      border-color: #212121;
   }
   
   .navbar-inverse .input-group .form-control {
@@ -427,7 +427,7 @@
   }
   
   .home {
-      padding: 0 0 30px;
+      padding: .5em 0 5em;
   }
   
   .home .filter-button-group {
