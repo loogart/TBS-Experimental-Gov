@@ -312,10 +312,31 @@
       }
   }
   
-  .home {
+  .index {
       padding: 20px;
       background-color: #232323;
       color: #fff;
+  }
+  
+  .index p {
+      font-size: 20px;
+      font-weight: 400;
+  }
+  
+  .index h2 {
+      font-size: 2em;
+      font-weight: bolder;
+  }
+  
+  .index .btn-default {
+      background-color: #232323;
+      color: #fff;
+  }
+  
+  .home {
+      padding: 20px;
+      background-color: #fff;
+      color: #232323;
   }
   
   .home p {
@@ -329,27 +350,6 @@
   }
   
   .home .btn-default {
-      background-color: #232323;
-      color: #fff;
-  }
-  
-  .generic {
-      padding: 20px;
-      background-color: #fff;
-      color: #232323;
-  }
-  
-  .generic p {
-      font-size: 20px;
-      font-weight: 400;
-  }
-  
-  .generic h2 {
-      font-size: 2em;
-      font-weight: bolder;
-  }
-  
-  .generic .btn-default {
       background-color: #fff;
       color: #232323;
   }
