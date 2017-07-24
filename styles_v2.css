@@ -356,6 +356,7 @@
   /*masonry*/
   
   * {
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
   }
   /* ---- grid ---- */
@@ -382,8 +383,14 @@
   .grid-item {
       height: 150px;
       float: left;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       background-position: center;
       background-size: cover;
@@ -396,13 +403,16 @@
   .grid-item:active,
   .grid-item:focus {
       background-color: #313131;
-      box-shadow: 0 20px 60px rgba(0,0,0,.4);
+      -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, .4);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .4);
       z-index: 1;
+      -webkit-transform: scale(1.1);
       transform: scale(1.1);
   }
   
   .grid-item span {
-      align-self:flex-end;
+      -ms-flex-item-align: end;
+      align-self: flex-end;
   }
   
   .grid-item h3 {
@@ -452,69 +462,74 @@
       margin-right: 20px;
       margin-top: 24px;
   }
-
-.filter-subtitle img {
-    margin-right: 6px;
-}
+  
+  .filter-subtitle img {
+      margin-right: 6px;
+  }
   
   .tile-1 {
       background-color: #2D3142;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-2 {
       background-color: #4F5D75;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-3 {
       background-color: #767c86;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-4 {
       background-color: #EF8354;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-5 {
       background-color: #2D3142;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-6 {
       background-color: #767c86;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-7 {
       background-color: #EF8354;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-8 {
       background-color: #2D3142;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-9 {
       background-color: #4F5D75;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .tile-10 {
       background-color: #767c86;
-/*      background-color: #232323;*/
+      /*      background-color: #232323;*/
   }
   
   .jumbotron-image-1 {
       color: #fff;
       -webkit-box-shadow: inset 0px -69px 172px -4px rgba(0, 0, 0, 0.65);
-      -moz-box-shadow: inset 0px -69px 172px -4px rgba(0, 0, 0, 0.65);
       box-shadow: inset 0px -69px 172px -4px rgba(0, 0, 0, 0.65);
       min-height: 44vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       background-position: center;
       background-size: cover;
@@ -538,4 +553,9 @@
   
   .footer a {
       color: #e8e8e8;
+  }
+  
+  .footer h6 {
+      font-size: .9em;
+      line-height: 1.5em;
   }
